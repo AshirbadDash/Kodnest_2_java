@@ -8,8 +8,11 @@ public class Solution8 {
 //		String s = new String(ch);
 //		System.out.println(s);
 
-		String str = ch.toString();
+//		String str = ch.toString();
+		String str = new String(ch);
+		System.out.println(str.equals(str));
 		System.out.println(str);
+		
 
 //		for (int i = 0; i < str.length() ; i++) {
 //			System.out.print(s.charAt(i));

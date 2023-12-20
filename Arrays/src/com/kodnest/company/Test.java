@@ -6,7 +6,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		int L, i, mid, flag = 0;
-		@SuppressWarnings("resource")
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("User! please enter the size of the Array");
 
